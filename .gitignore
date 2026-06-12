@@ -1,0 +1,13 @@
+/.claude/
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+/captures
+/doc
+/.kotlin/
+keystore.properties
+*.keystore
+*.jks

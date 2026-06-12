@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Authenticator</string>
+
+    <!-- Navigation -->
+    <string name="nav_back">Back</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_more">More</string>
+
+    <!-- Home -->
+    <string name="title_home">Authenticator</string>
+    <string name="search_hint">Search accounts…</string>
+    <string name="empty_state_title">No accounts yet</string>
+    <string name="empty_state_desc">Tap the + button to add your first account</string>
+    <string name="code_copied">Code copied</string>
+    <string name="snackbar_account_added">Account added</string>
+    <string name="delete_dialog_title">Delete account</string>
+    <string name="delete_dialog_message">Delete 「%s」? This action cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Account detail dialog -->
+    <string name="account_name">Account name</string>
+    <string name="secret_key">Secret key</string>
+    <string name="username">Username</string>
+    <string name="display_name">Display name</string>
+    <string name="copy_s">Copy %s</string>
+    <string name="close">Close</string>
+
+    <!-- About dialog -->
+    <string name="about">About</string>
+    <string name="about_app_description">A secure two-factor authentication (2FA) app\nSupports TOTP protocol, compatible with Google Authenticator</string>
+    <string name="about_built_with">Built with Open Design System</string>
+    <string name="version_format">Version %s</string>
+    <string name="version_name">1.0.0</string>
+    <string name="version">Version</string>
+
+    <!-- Time drift warning -->
+    <string name="time_drift_title">Device time may be inaccurate</string>
+    <string name="time_drift_desc">This may cause code mismatches. Please calibrate your device time.</string>
+    <string name="time_drift_action">Calibrate</string>
+
+    <!-- Add account -->
+    <string name="title_add_account">Add account</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="manual_entry">Manual entry</string>
+    <string name="secret_key_hint">Enter the provided key</string>
+    <string name="secret_key_hint_desc">The key is typically 16–32 alphanumeric characters</string>
+    <string name="account_name_placeholder">e.g. Google, GitHub</string>
+    <string name="username_placeholder">e.g. user@example.com</string>
+    <string name="add_account">Add account</string>
+    <string name="invalid_qr_code">Unrecognized QR code format</string>
+    <string name="fill_required">Please fill in account name and secret key</string>
+    <string name="name_suffix_user">%s User</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="security">Security</string>
+    <string name="follow_system">Follow system</string>
+    <string name="light_mode">Light mode</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="biometric_lock">Biometric lock</string>
+    <string name="biometric_desc">Unlock app with fingerprint or face</string>
+    <string name="data_migration">Data migration</string>
+    <string name="export_accounts">Export accounts</string>
+    <string name="export_desc">Generate QR codes for each account to scan into other apps</string>
+    <string name="help_feedback">Help &amp; feedback</string>
+    <string name="footer_built_with">Built with Open Design System</string>
+
+    <!-- Export bottom sheet -->
+    <string name="export_title">Export accounts</string>
+    <string name="export_desc_detail">Each account generates a QR code for other authenticator apps to scan</string>
+    <string name="export_empty">No accounts yet</string>
+    <string name="export_count">%d account(s)</string>
+    <string name="export_failed">Failed to generate</string>
+
+    <!-- QR Scanner -->
+    <string name="scanning">Scanning…</string>
+    <string name="scan_success">Scan successful</string>
+    <string name="scan_unsupported">Unsupported QR code format</string>
+    <string name="scan_instruction">Place QR code inside the frame</string>
+    <string name="scan_instruction_detail">Supports 2FA QR codes from Google, Microsoft, GitHub and more</string>
+    <string name="camera_permission_title">Camera permission required</string>
+    <string name="camera_permission_desc">Scanning QR codes requires camera access</string>
+    <string name="camera_permission_grant">Grant permission</string>
+
+    <!-- Biometric lock -->
+    <string name="biometric_auth_title">Verify identity</string>
+    <string name="biometric_auth_subtitle">Unlock app with fingerprint or face</string>
+    <string name="lock_screen_title">App locked</string>
+    <string name="lock_screen_desc">Please verify your identity to access the app</string>
+    <string name="lock_screen_unsupported">Device does not support biometric authentication</string>
+    <string name="lock_screen_retry">Authentication failed, please try again</string>
+    <string name="lock_screen_retry_action">Retry</string>
+</resources>
